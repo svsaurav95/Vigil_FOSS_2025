@@ -1,0 +1,46 @@
+/* Stampede.module.css */
+.container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    color: #d9534f;
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  
+  .fileInput {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #31b0d5;
+  }
+  
+  .videoContainer {
+    margin-top: 30px;
+  }
+  
+  .video {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
