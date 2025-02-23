@@ -86,7 +86,7 @@ Vigil.ai is an AI-powered event management platform designed to enhance security
 ## 📥 Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/Vigil.ai.git
+   git clone https://github.com/svsaurav95/Vigil.ai.git
    cd Vigil.ai
    ```
 2. Install dependencies:
