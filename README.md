@@ -1,82 +1,82 @@
-# Vigil.ai - AI-Powered Event Management System
+# Vigil.ai : AI Powered Event Management System
 
 Vigil.ai is an AI-powered event management platform designed to enhance security, efficiency, and insights for large-scale events. Our state-of-the-art system incorporates AI-driven ticket authentication, demographic analysis, lost and found services, and crowd safety prediction to ensure a seamless and secure event experience.
 
-## Features
+## Table of Contents
+- [🎟️ Ticket Authentication](#-ticket-authentication)
+- [📊 Demographic Analysis](#-demographic-analysis)
+- [🔍 Lost and Found](#-lost-and-found)
+- [🚨 Stampede Prediction](#-stampede-prediction)
+- [🛠️ Tech Stack](#-tech-stack)
+- [📥 Installation](#-installation)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+- [📞 Contact](#-contact)
 
-### 🎟️ Ticket Authentication
-- **Secure ticket generation and validation.**
-- **Tickets are sent directly to users via email.**
-- **Prevents unauthorized access using QR codes and AI-based validation.**
+## 🎟️ Ticket Authentication
+- Secure ticket generation and validation.
+- Tickets are sent directly to users via email.
+- Prevents unauthorized access using QR codes and AI-based validation.
 
-### 📊 Demographic Analysis
-- **AI-powered real-time facial analysis.**
-- **Provides insights such as nationality, age range, and gender.**
-- **Helps event organizers understand audience demographics for better planning and marketing.**
+## 📊 Demographic Analysis
+- AI-powered real-time facial analysis.
+- Provides insights such as nationality, age range, and gender.
+- Helps event organizers understand audience demographics for better planning and marketing.
 
-### 🔍 Lost and Found
-- **Cutting-edge image recognition to locate lost individuals in a crowd.**
-- **Matches input images against real-time event footage.**
-- **Rapid and accurate person identification using deep learning.**
+## 🔍 Lost and Found
+- Cutting-edge image recognition to locate lost individuals in a crowd.
+- Matches input images against real-time event footage.
+- Rapid and accurate person identification using deep learning.
 
-### 🚨 Stampede Prediction
-- **AI-based video analysis to predict stampede risks in large crowds.**
-- **Identifies low-risk zones for safe crowd movement.**
-- **Helps organizers take preventive measures and ensure crowd safety.**
+## 🚨 Stampede Prediction
+- AI-based video analysis to predict stampede risks in large crowds.
+- Identifies low-risk zones for safe crowd movement.
+- Helps organizers take preventive measures and ensure crowd safety.
 
-## Tech Stack
+## 🛠️ Tech Stack
+- **Backend:** Flask, FastAPI, TensorFlow, OpenCV, PyTorch
+- **Frontend:** React.js
+- **Database:** SQLite
+- **AI Models:**  YOLOv8, CLIP, FaceNet
 
-```html
-<ul>
-  <li><strong>Backend:</strong> Flask, FastAPI, TensorFlow, OpenCV, PyTorch</li>
-  <li><strong>Frontend:</strong> React.js, TailwindCSS</li>
-  <li><strong>Database:</strong> MongoDB, PostgreSQL</li>
-  <li><strong>AI Models:</strong> MobileViT, YOLOv8, CLIP, FaceNet</li>
-  <li><strong>Cloud Services:</strong> AWS (S3, Lambda, EC2), Firebase</li>
-</ul>
-```
+## 📥 Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/Vigil.ai.git
+   cd Vigil.ai
+   ```
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Set up environment variables:
+   ```sh
+   cp .env.example .env
+   # Update with your credentials
+   ```
+4. Start the backend server:
+   ```sh
+   python app.py
+   ```
+5. Navigate to the frontend directory and run:
+   ```sh
+   npm install
+   npm start
+   ```
 
-## Installation
+## 🤝 Contributing
+We welcome contributions! Please follow these steps:
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m "Added new feature"`
+4. Push to your branch: `git push origin feature-name`
+5. Open a pull request.
 
-```html
-<ol>
-  <li>Clone the repository:</li>
-  <pre><code>git clone https://github.com/yourusername/Vigil.ai.git
-cd Vigil.ai</code></pre>
-  <li>Install dependencies:</li>
-  <pre><code>pip install -r requirements.txt</code></pre>
-  <li>Set up environment variables:</li>
-  <pre><code>cp .env.example .env
-# Update with your credentials</code></pre>
-  <li>Start the backend server:</li>
-  <pre><code>python app.py</code></pre>
-  <li>Navigate to the frontend directory and run:</li>
-  <pre><code>npm install
-npm start</code></pre>
-</ol>
-```
+## 📜 License
+This project is licensed under the MIT License.
 
-## Contributing
-
-```html
-<ol>
-  <li>Fork the repository.</li>
-  <li>Create a feature branch: <code>git checkout -b feature-name</code></li>
-  <li>Commit your changes: <code>git commit -m "Added new feature"</code></li>
-  <li>Push to your branch: <code>git push origin feature-name</code></li>
-  <li>Open a pull request.</li>
-</ol>
-```
-
-## License
-```html
-<p>This project is licensed under the MIT License.</p>
-```
-
-## Contact
-```html
-<p>For queries and support, reach out at <strong>support@vigil.ai</strong> or open an issue on GitHub.</p>
-```
+## 📞 Contact
+For queries and support, reach out at **support@vigil.ai** or open an issue on GitHub.
 
 ---
 **Vigil.ai** - AI-driven event security and management.
