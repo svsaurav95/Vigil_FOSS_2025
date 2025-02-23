@@ -1,4 +1,4 @@
-# Vigil.ai - AI-Powered Event Management System
+# Vigil.ai: AI Powered Event Management System
 
 Vigil.ai is an AI-powered event management platform designed to enhance security, efficiency, and insights for large-scale events. Our state-of-the-art system incorporates AI-driven ticket authentication, demographic analysis, lost and found services, and crowd safety prediction to ensure a seamless and secure event experience.
 
