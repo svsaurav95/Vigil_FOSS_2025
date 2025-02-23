@@ -2,6 +2,10 @@
 
 Vigil.ai is an AI-powered event management platform designed to enhance security, efficiency, and insights for large-scale events. Our state-of-the-art system incorporates AI-driven ticket authentication, demographic analysis, lost and found services, and crowd safety prediction to ensure a seamless and secure event experience.
 
+<p align="center">
+  <img src="images/landing.png" alt="Landing Page" title="Landing Page" width="800">
+</p>
+
 ## Table of Contents
 - [🎟️ Ticket Authentication](#-ticket-authentication)
 - [📊 Demographic Analysis](#-demographic-analysis)
@@ -24,23 +28,25 @@ Vigil.ai is an AI-powered event management platform designed to enhance security
 </p>
 
  <p align="center">
-  <img src="images/ticket-email.png" alt="Ticket Generation" title="Ticket Generation" width="500">
+  <img src="images/ticket-email.png" alt="Ticket Generation" title="Ticket Generation" width="200">
 </p>  <p align="center">
-  <img src="images/ticket_auth.png" alt="Ticket Validation" title="Ticket Validation" width="500">
+  <img src="images/ticket_auth.png" alt="Ticket Validation" title="Ticket Validation" width="700">
 </p> 
 
 
 ## 📊 Demographic Analysis
 
+- AI-powered real-time facial analysis.<br>
+- Provides insights such as nationality, age range, and gender.<br>
+- Helps event organizers understand audience demographics for better planning and marketing.<br>
+
 <p align="center">
-  <img src="images/demograp.png" alt="Demographic Analysis" title="Demographic Analysis" width="400">
+  <img src="images/demograp.png" alt="Demographic Analysis" title="Demographic Analysis" width="700">
 </p>
-- AI-powered real-time facial analysis.
-- Provides insights such as nationality, age range, and gender.
-- Helps event organizers understand audience demographics for better planning and marketing.
+
 
    <p align="center">
-  <img src="images/demograph_insight.png" alt="Demographic Insights" title="Demographic Insights" width="400">
+  <img src="images/demograph_insight.png" alt="Demographic Insights" title="Demographic Insights" width="700">
 
 
 ## 🔍 Lost and Found
@@ -48,41 +54,34 @@ Vigil.ai is an AI-powered event management platform designed to enhance security
 <p align="center">
   <img src="images/LNF.png" alt="Lost and Found" title="Lost and Found" width="500">
 </p>
-- Cutting-edge image recognition to locate lost individuals in a crowd.
-- Matches input images against real-time event footage.
-- Rapid and accurate person identification using deep learning.
+- Cutting-edge image recognition to locate lost individuals in a crowd.<br>
+- Matches input images against real-time event footage.<br>
+- Rapid and accurate person identification using deep learning.<br>
 
-| <p align="center">
+ <p align="center">
   <img src="images/lostandfound.png" alt="Lost Person Detection" title="Lost Person Detection" width="500">
 
 
 ## 🚨 Stampede Prediction
 
-- AI-based video analysis to predict stampede risks in large crowds.
-- Identifies low-risk zones for safe crowd movement.
-- Helps organizers take preventive measures and ensure crowd safety.
+- AI-based video analysis to predict stampede risks in large crowds.<br>
+- Identifies low-risk zones for safe crowd movement.<br>
+- Helps organizers take preventive measures and ensure crowd safety.<br>
 
 <p align="center">
   <img src="images/stampede_pred.png" alt="Stampede Prediction" title="Stampede Prediction" width="750">
 </p>
-- AI-based video analysis to predict stampede risks in large crowds.
-- Identifies low-risk zones for safe crowd movement.
-- Helps organizers take preventive measures and ensure crowd safety.
 
-| <p align="center">
-  <img src="images/stampede_pred1.png" alt="Crowd Analysis" title="Crowd Analysis" width="750">
-</p> | <p align="center">
-  <img src="images/stampede_prediction.jpg" alt="Stampede Prediction" title="Stampede Prediction" width="750">
-</p> |
-|:-------------------------------------------:|:--------------------------------------------:|
-| Crowd Analysis                             | Stampede Prediction                        |
+<p align="center">
+  <img src="images/Stampede_pred1.png" alt="Crowd Analysis" title="Crowd Analysis" width="750">
+
 
 ## 🛠️ Tech Stack
 - **Backend:** Flask, FastAPI, TensorFlow, OpenCV, PyTorch
 - **Frontend:** React.js, TailwindCSS
-- **Database:** MongoDB, PostgreSQL
-- **AI Models:** MobileViT, YOLOv8, CLIP, FaceNet
-- **Cloud Services:** AWS (S3, Lambda, EC2), Firebase
+- **Database:** SQLite
+- **AI Models:** YOLOv8, CLIP, FaceNet
+
 
 ## 📥 Installation
 1. Clone the repository:
