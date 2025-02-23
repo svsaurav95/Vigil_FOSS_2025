@@ -1,4 +1,4 @@
-# Vigil.ai : AI Powered Event Management System
+# Vigil.ai - AI-Powered Event Management System
 
 Vigil.ai is an AI-powered event management platform designed to enhance security, efficiency, and insights for large-scale events. Our state-of-the-art system incorporates AI-driven ticket authentication, demographic analysis, lost and found services, and crowd safety prediction to ensure a seamless and secure event experience.
 
@@ -14,35 +14,80 @@ Vigil.ai is an AI-powered event management platform designed to enhance security
 - [📞 Contact](#-contact)
 
 ## 🎟️ Ticket Authentication
-- Secure ticket generation and validation.
-- Tickets are sent directly to users via email.
-- Prevents unauthorized access using QR codes and AI-based validation.
+
+- Secure ticket generation and validation.<br>
+- Tickets are sent directly to users via email.<br>
+- Prevents unauthorized access using QR codes and AI-based validation.<br>
+
+<p align="center">
+  <img src="images/ticket_generated.png" alt="Ticket Authentication" title="Ticket Authentication" width="500">
+</p>
+
+ <p align="center">
+  <img src="images/ticket-email.png" alt="Ticket Generation" title="Ticket Generation" width="500">
+</p>  <p align="center">
+  <img src="images/ticket_auth.png" alt="Ticket Validation" title="Ticket Validation" width="500">
+</p> 
+
 
 ## 📊 Demographic Analysis
+
+<p align="center">
+  <img src="images/demograp.png" alt="Demographic Analysis" title="Demographic Analysis" width="400">
+</p>
 - AI-powered real-time facial analysis.
 - Provides insights such as nationality, age range, and gender.
 - Helps event organizers understand audience demographics for better planning and marketing.
 
+   <p align="center">
+  <img src="images/demograph_insight.png" alt="Demographic Insights" title="Demographic Insights" width="400">
+
+
 ## 🔍 Lost and Found
+
+<p align="center">
+  <img src="images/LNF.png" alt="Lost and Found" title="Lost and Found" width="500">
+</p>
 - Cutting-edge image recognition to locate lost individuals in a crowd.
 - Matches input images against real-time event footage.
 - Rapid and accurate person identification using deep learning.
 
+| <p align="center">
+  <img src="images/lostandfound.png" alt="Lost Person Detection" title="Lost Person Detection" width="500">
+
+
 ## 🚨 Stampede Prediction
+
 - AI-based video analysis to predict stampede risks in large crowds.
 - Identifies low-risk zones for safe crowd movement.
 - Helps organizers take preventive measures and ensure crowd safety.
 
+<p align="center">
+  <img src="images/stampede_pred.png" alt="Stampede Prediction" title="Stampede Prediction" width="750">
+</p>
+- AI-based video analysis to predict stampede risks in large crowds.
+- Identifies low-risk zones for safe crowd movement.
+- Helps organizers take preventive measures and ensure crowd safety.
+
+| <p align="center">
+  <img src="images/stampede_pred1.png" alt="Crowd Analysis" title="Crowd Analysis" width="750">
+</p> | <p align="center">
+  <img src="images/stampede_prediction.jpg" alt="Stampede Prediction" title="Stampede Prediction" width="750">
+</p> |
+|:-------------------------------------------:|:--------------------------------------------:|
+| Crowd Analysis                             | Stampede Prediction                        |
+
 ## 🛠️ Tech Stack
 - **Backend:** Flask, FastAPI, TensorFlow, OpenCV, PyTorch
-- **Frontend:** React.js
-- **Database:** SQLite
-- **AI Models:**  YOLOv8, CLIP, FaceNet
+- **Frontend:** React.js, TailwindCSS
+- **Database:** MongoDB, PostgreSQL
+- **AI Models:** MobileViT, YOLOv8, CLIP, FaceNet
+- **Cloud Services:** AWS (S3, Lambda, EC2), Firebase
 
 ## 📥 Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/svsaurav95/Vigil.ai.git
+   git clone https://github.com/yourusername/Vigil.ai.git
    cd Vigil.ai
    ```
 2. Install dependencies:
