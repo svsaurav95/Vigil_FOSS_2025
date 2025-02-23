@@ -1,0 +1,295 @@
+/* HeroSection.module.css */
+.hero {
+  background-image: linear-gradient(to right, #102653, rgb(14, 18, 28), #000000);
+  color: white;
+  padding: 60px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.belowWave {
+  width: 100%;
+  background-image: linear-gradient(to right, #102653, rgb(14, 18, 28), #000000);
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.belowContainer {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+/* Ensure proper stacking of routed components */
+.belowContainer > * {
+  width: 100%;
+  padding: 40px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.getStdButton {
+  margin-top: 20px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.8rem;
+  padding-inline: 1.25rem;
+  background-color: rgb(0 107 179);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 20px;
+}
+.Githubbutton {
+  margin-top: 20px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.8rem;
+  padding-inline: 1.25rem;
+  background-color: rgb(0, 0, 0);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.Githubbutton:hover,
+.getStdButton:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.Githubbutton:hover .icon,
+.getStdButton:hover .icon {
+  transform: translate(4px);
+}
+
+.Githubbutton:hover::before,
+.getStdButton:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.Githubbutton::before,
+.getStdButton::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+.content {
+  max-width: 50%;
+}
+
+.date {
+  color: #ffdd00;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: -20px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.registerButton {
+  background: linear-gradient(to right, #ff00ff, #ff6600);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.registerButton:hover {
+  opacity: 0.8;
+}
+
+.watchButton {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: 0.3s;
+}
+
+.watchButton:hover {
+  background: white;
+  color: black;
+}
+
+.playIcon {
+  font-size: 14px;
+  color: yellow;
+}
+
+.imageContainer {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 45%;
+}
+
+.heroImage {
+  width: 80%;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  background: linear-gradient(45deg, magenta, blue);
+  padding: 5px;
+  margin-left: 60px;
+}
+
+/* Stats Section */
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px; 
+}
+
+.statItem {
+  background: #222;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  min-width: 150px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.statItem::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(circle, rgba(33, 86, 193, 0), transparent);
+  transition: all 0.1s ease-in-out;
+}
+
+.statItem:hover::before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.statItem:hover {
+  transform: scale(1.04);
+  border: 1px solid #2156c1;
+  box-shadow: 0 0 15px rgba(33, 86, 193, 0.7);
+}
+
+.statItem h2 {
+  font-size: 20px;
+  color: #2156c1;
+  margin-bottom: 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+.statItem:hover h2 {
+  color: #ffdd00;
+}
+
+.rightArrow {
+  display: inline-block;
+  transform: scale(2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.statItem:hover .rightArrow {
+  transform: scale(2.2);
+}
+
+.statItem p {
+  font-size: 14px;
+}
+

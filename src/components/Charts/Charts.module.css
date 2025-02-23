@@ -1,0 +1,59 @@
+.chartContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    color: white;
+    max-width: 900px;
+    margin: auto;
+}
+
+.chartCard {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    min-height: 450px;
+    transition: transform 0.3s ease;
+}
+
+.chartCard:hover {
+    transform: scale(1.05);
+}
+
+.chartTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4db8ff;
+}
+
+.error, .loading {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+/* Ensure only the Bar chart has white X & Y axis lines */
+.barChart canvas {
+    background-color: transparent !important;
+}
+
+.barChart .chartjs-render-monitor {
+    color: white !important;
+}
+
+.barChart .chartjs-axis-x line,
+.barChart .chartjs-axis-y line {
+    stroke: white !important;
+}
+
+.barChart .chartjs-axis-x text,
+.barChart .chartjs-axis-y text {
+    fill: white !important;
+}
