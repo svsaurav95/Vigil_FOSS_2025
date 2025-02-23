@@ -15,7 +15,7 @@ Vigil.ai is an AI-powered event management platform designed to enhance security
 - [📥 Installation](#-installation)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
-- [📞 Contact](#-contact)
+
 
 ## 🎟️ Ticket Authentication
 
@@ -119,9 +119,6 @@ We welcome contributions! Please follow these steps:
 ## 📜 License
 This project is licensed under the MIT License.
 
-## 📞 Contact
-For queries and support, reach out at **support@vigil.ai** or open an issue on GitHub.
 
----
 **Vigil.ai** - AI-driven event security and management.
 
