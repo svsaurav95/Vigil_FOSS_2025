@@ -1,0 +1,23 @@
+demographic:
+cd C:\Users\surya\Desktop\Programs\web-projects\vigil.ai\backend
+python demographic_db_backend.py
+------------------------------------------------------------------------
+LnF:
+cd C:\Users\surya\Desktop\Programs\web-projects\vigil.ai\backend
+python nx_LNF_img.py
+------------------------------------------------------------------------
+stampede:
+cd C:\Users\surya\Desktop\Programs\web-projects\vigil.ai\backend
+python stampede_pred_bck.py
+------------------------------------------------------------------------
+ticket generate:
+cd C:\Users\surya\Desktop\Programs\web-projects\vigil.ai\backend
+python gen_ticket_bck.py
+------------------------------------------------------------------------
+ticket validate:
+cd C:\Users\surya\Desktop\Programs\web-projects\vigil.ai\backend
+python validate_ticket_bck.py
+------------------------------------------------------------------------
+Charts:
+cd C:\Users\surya\Desktop\Programs\web-projects\vigil.ai\backend
+python stats_chart.py

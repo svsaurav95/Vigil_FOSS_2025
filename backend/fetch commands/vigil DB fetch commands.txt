@@ -1,0 +1,16 @@
+cd C:\Users\surya\Desktop\Programs\web-projects\vigil.ai\backend
+sqlite3 event_tickets.db
+.tables
+.schema tickets
+SELECT * FROM tickets;
+
+.exit
+
+------------------------------------------------------------
+cd C:\Users\surya\Desktop\Programs\web-projects\vigil.ai\backend
+sqlite3 classifications.db
+.tables
+.schema classifications
+SELECT * FROM classifications;
+
+.exit
