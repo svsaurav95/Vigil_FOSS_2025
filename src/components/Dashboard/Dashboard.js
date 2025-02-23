@@ -28,7 +28,7 @@ const Dashboard = () => {
       {/* Sidebar */}
       <aside className={styles.sidebar}>
         <a href="/">
-          <div className={styles.logo}>NeuraClass</div>
+          <div className={styles.logo}>Vigil.AI</div>
         </a>
         <hr style={{ width: "100%" }} />
         <nav className={styles.nav}>
