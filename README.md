@@ -100,7 +100,12 @@ Vigil.ai is an AI-powered event management platform designed to enhance security
    ```
 4. Start the backend server:
    ```sh
-   python app.py
+   python demographic_db_backend.py
+   python nx_LNF_img.py
+   python stampede_pred_bck.py
+   python gen_ticket_bck.py
+   python validate_ticket_bck.py
+   python stats_chart.py
    ```
 5. Navigate to the frontend directory and run:
    ```sh
