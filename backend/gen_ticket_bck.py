@@ -10,12 +10,12 @@ import json
 import random
 import os
 from flask_cors import CORS
-
+from dotenv import load_dotenv
  
-EMAIL_SENDER = "suryanshhimalayan@gmail.com"
-EMAIL_PASSWORD = "ekfd ioms tsqc ahxj"
+EMAIL_SENDER = os.getenv("EMAIL_SENDER")
+EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 
-# Initialize Flask App
+# Initialize Flask App 
 app = Flask(__name__)
 CORS(app) 
 
