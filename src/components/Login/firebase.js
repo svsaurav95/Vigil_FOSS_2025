@@ -3,13 +3,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDTJhbXMJikVFTZF1Bi6j-Qe0nKwOVJ6mU",
-  authDomain: "vigilai-9c0ac.firebaseapp.com",
-  projectId: "vigilai-9c0ac",
-  storageBucket: "vigilai-9c0ac.firebasestorage.app",
-  messagingSenderId: "324706844927",
-  appId: "1:324706844927:web:da1b4adb1b367f6aa78cca",
-  measurementId: "G-J0DB13PM65"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
   
 // Initialize Firebase
